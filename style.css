@@ -1,0 +1,29 @@
+body {
+    background: #202020;
+    color: white;
+    text-align: center;
+}
+
+.flex-container {
+    flex-direction: initial;
+    border: 1px solid white;
+    background: red;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.caja {
+    border: 1px solid rgb(225, 139, 139);
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
